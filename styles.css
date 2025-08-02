@@ -515,3 +515,37 @@ body{
         text-align: center;
     }
 }
+
+@media (max-width: 480px) {
+    .section {
+        padding: 60px 0;
+    }
+    .section-title {
+        font-size: 1.3rem;
+        margin-bottom: 1.5rem;
+    }
+    .profile-img {
+        width: 140px;
+        height: 140px;
+    }
+    .about-content,
+    .experience-content {
+        gap: 1rem;
+    }
+    .project-item,
+    .skill-item,
+    .contact-item {
+        padding: 1rem;
+        font-size: 0.95rem;
+    }
+    .project-img-1 {
+        height: 150px;
+    }
+    .nav-logo a {
+        font-size: 1.1rem;
+    }
+    .nav-link {
+        font-size: 12px;
+        padding: 0.4rem 0.7rem;
+    }
+}
